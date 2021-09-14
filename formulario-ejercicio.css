@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+    margin: 50px 0 0 0;
+}
+
+h1 {
+    color: purple;
+    text-shadow: rgb(44, 2, 44) 1px 1px 3px;
+}
+
+form {
+    border: purple double 5px;
+    padding-top: 50px;
+    height: 500px;
+    width: 600px;
+}
+
+input, textarea, button {
+    border-radius: 5px;
+    background-color: rgba(44, 2, 44, 0.171);
+}
+

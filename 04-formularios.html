@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+
+        <!--action se refiera a la accion que se realizara o sea adonde se mandara la informacion que se ingrese-->
+        <!--method. puede ser POST o GET (metodo por defecto), hace referencia al metodo o sea la forma en la que se envian los datos-->
+
+        <form>
+            <p>
+                <!--label, estiqueta que indica la informacion que debe colocarse en el input-->
+                <!--for, es para ligar a un campo-->
+                <label for="name">Nombre</label>
+    
+                <!--input, es un campo de texto donde se puede ingresar la informacion solicitada en el label-->
+                <!--type, define el formato (tipo) de la informacion que se ingresa-->
+                <!--name, define -->
+                <input type="text" name="name" />
+            </p>
+
+            <p>
+                <label for="email">Correo</label>
+                <input type="email" name="email" />
+            </p>
+
+            <p>
+                <label for="pasword">Contraseña</label>
+                <input type="password" name="password" />
+            </p>
+
+            <p>
+                <label for="numero">Numero</label>
+                <input type="number">
+            </p>
+
+            <p>
+                <input type="checkbox" value="second_checkbox">
+                <label for="">Checkbox</label>
+                
+            </p>
+
+            <p>
+                <label for="publicacion">Publicación</label>
+                <!--textarea, para introducir textos grandes-->
+                <textarea name="" id="" cols="50" rows="5"></textarea>
+            </p>
+
+            <p>
+                <label for="color">Color Favorito</label>
+
+                <!--select, lista de elementos que se puede seleccionas-->
+                <!--value, valos que se envia al backend (funciona como una "variable")-->
+                <select name="" id="">
+                    <option value="1">Morado</option>
+                    <option value="2">Negro</option>
+                    <option value="3">Rojo</option>
+                    <option value="4">Gris</option>
+                    <option value="5">Blanco</option>
+                </select>
+
+            </p>
+            
+            <p>
+                <label for="">Selecciona tu rango de edad</label>
+                
+                <p>
+                    <input type="radio" name="edad">De 18 a 22
+                </p> 
+
+                <p>
+                    <input type="radio" name="edad">De 23 a 28
+                </p>
+
+                <p>
+                    <input type="radio" name="edad">De 29 a 59
+                </p>
+            </p>
+
+            <!-- <input type="submit" value="Guardar Datos"> -->
+
+            <!--Puede usar iconos en vez de la frase "Guardar Datos"-->
+            <button type="submit">Guardar Datos</button>
+        </form>
+    </body>
+</html>

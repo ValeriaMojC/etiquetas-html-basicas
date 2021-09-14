@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Images y Tablas</title>
+    </head>
+    <body>
+        <h1>Images y Tablas</h1>
+        <h3>Imagenes</h3>
+
+        <!--Imagen agregada desde un URL-->
+        <img src="https://thumbs.dreamstime.com/b/atardecer-o-amanecer-rascacielos-de-la-ciudad-edificios-modernos-en-escena-urbana-oscura-ambiente-ilustraci%C3%B3n-vectorial-noche-212736670.jpg" alt="Ciudad al amanecer" title="Ciudad al amanecer" width="200px" height="100px">
+
+        <!--Imagen agregada desde la carpera (Descargado)-->
+        <img src="ciudad.jpg" alt="Ciudad al anochecer" title="Ciudad al anochecer" width="200px" height="200px">
+
+        <hr />
+
+        <h3>Tablas</h3>
+        <table border="1">
+            <tr>
+                <th>Horario</th>
+                <th>Materia</th>
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Algoritmos</td>
+            </tr>
+
+            <tr>
+                <td>11:00 - 13:00</td>
+                <td>Programación Orientada a Objetos</td>
+            </tr>
+        </table>
+
+        <hr /> 
+        <!--Actividad-->
+        <h3>Mi Horario de Clases</h3>
+        <table border="1">
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td>Ingles</td>
+                <td>Ciencias Sociales</td>
+                <td>Arte</td>
+                <td>Programación</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Ingles</td>
+                <td>Literatura</td>
+                <td>Filosofia</td>
+                <td>Programación</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+            </tr>
+
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>Programación Orientada a Objetos</td>
+                <td>Programación Orientada a Objetos</td>
+                <td>Ciencias Sociales</td>
+                <td>Algebra</td>
+                <td>Algebra</td>
+            </tr>  
+            
+            <tr>
+                <td>12:00 - 13:00</td>
+                <td>App Moviles</td>
+                <td>App Moviles</td>
+                <td>App Moviles</td>
+                <td>Literatura</td>
+                <td>Filosofia</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <h3>Tablas. Union de celdas</h3>
+
+        <table border="1">
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+
+            <tr>
+                <td>08:00 - 09:00</td>
+                <th rowspan = "2">Ingles</th>
+                <td>Ciencias Sociales</td>
+                <td>Arte</td>
+                <th colspan="2" rowspan="2">Programación</th>
+                <!-- <td>Programación</td> -->
+
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <!-- <td>Literatura</td> -->
+                <td>Literatura</td>
+                <td>Filosofia</td>
+                <!-- <td>Programación</td>
+                <td>Programación</td> -->
+            </tr>
+
+            <tr>
+                <td>10:00 - 11:00</td>
+                <th colspan="5">Desayuno</th>
+            </tr>
+
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>Programación Orientada a Objetos</td>
+                <td>Programación Orientada a Objetos</td>
+                <td>Ciencias Sociales</td>
+                <td>Algebra</td>
+                <td>Algebra</td>
+            </tr>  
+            
+            <tr>
+                <td>12:00 - 13:00</td>
+                <td>App Moviles</td>
+                <td>App Moviles</td>
+                <td>App Moviles</td>
+                <td>Literatura</td>
+                <td>Filosofia</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <!--Actividad-->
+        <h3>Union de celdas</h3>
+        <table border="1">
+            <tr>
+                <td>Rojo</td>
+                <td colspan="3">Verde</td>
+            </tr>
+
+            <tr>
+                <td>Café</td>
+                <td colspan="2">Marron</td>
+                <td>Tinto</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">Naranja</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Blanco</td>
+                <td>Negro</td>
+            </tr>
+        </table>
+    </body>
+</html>
